@@ -7,5 +7,10 @@ def main(s):
         s: str
     Returns:
         bool: answer
-    """
-    return
+    """ 
+    if len(s)==3:
+        return True
+    else:
+        return False
+print(main('uibure'))
+    
