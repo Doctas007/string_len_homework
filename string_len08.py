@@ -8,4 +8,10 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    if len(s)%2==0:
+        return "[]"
+    else:
+        return  [ s ]
+print(main('bajarildi'))
+
+    
