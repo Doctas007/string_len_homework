@@ -6,4 +6,9 @@ def main(s):
     Returns:
         string
     """
-    return
+    if len(s)==6:
+        return "*"
+    else:
+        return  
+print(main('cueceev'))
+
