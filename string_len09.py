@@ -9,4 +9,5 @@ def main(num1, num2):
     Returns:
         str: answer
     """
-    return
+    return len(num1)+len(num2)
+print(str(main('cefce','nfeicbe')))
