@@ -6,5 +6,13 @@ def main(a,b):
         b: string
     Returns:
         True or False
-    """
-    return
+
+    """    
+    if len(a)==len(b):
+        return True
+    else :
+        return False 
+print(main('arsd','fedy'))
+
+
+    
