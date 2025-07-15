@@ -8,4 +8,12 @@ def main(s1,s2,s3):
     Returns:
         string
     """
-    return
+    if len(s1)==len(s2)==len(s3):        
+        return "[s1,s2,s3]"
+    if len(s1)==len(s2)!=len(s3):
+        return "[s1,s2]"
+    if len(s1)!=len(s2)==len(s3):   
+        return "[s2,s3]"      
+    else:
+        return "[]"
+print(main('ghrf','grs','srg'))    
