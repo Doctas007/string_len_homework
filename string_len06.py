@@ -7,4 +7,9 @@ def main(s1,s2):
     Returns:
         shortest string
     """
-    return
+    if len(s1)>len(s2):
+        return 's2 is smaller'
+    else:
+        return 's1 is smaller'
+    
+print(main('fwv','frwvw'))    
